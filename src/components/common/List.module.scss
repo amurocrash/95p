@@ -1,0 +1,24 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  .itemWrapper {
+    margin-top: .2rem;
+    font-size: .4rem;
+    &.horizontal {
+      margin-left: .2rem;
+      margin-top: 0rem;
+      white-space: nowrap;
+    }
+    &:first-child {
+      margin: 0px;
+    }
+  }
+  &.horizontal {
+    flex-direction: row;
+    overflow-x: scroll;
+  }
+  &::-webkit-scrollbar {
+    width: 0;
+  }
+}

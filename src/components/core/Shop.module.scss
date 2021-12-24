@@ -1,0 +1,66 @@
+@import '../../assets/styles/global.scss';
+
+.root {
+  box-sizing: border-box;
+  padding: 0px .3rem;
+  .sloganWrapper {
+    height: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    .main {
+      font-size: .5rem;
+      font-weight: bold;
+    }
+    .sub {
+      font-size: 0.25rem;
+      background: $light-gray-xxx;
+      border-radius: .1rem;
+      padding: .1rem .2rem
+    }
+  }
+
+  .navi {
+    background: $light-gray-extra-xxx;
+    .searchWrapper {
+      width: 100%;
+      box-sizing: border-box;
+      border: 1px solid $main-black;
+      border-left: 10px solid $main-black;
+      border-right: 10px solid $main-black;
+      // padding: 0.3rem 0.3rem;
+      margin: .3rem 0rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .recommend {
+        padding: 0.3rem 0.4rem;
+      }
+      .all {
+        font-weight: bold;
+        font-size: .4rem;
+        border-left: 1px solid $dark-gray;
+        padding-top: .3rem;
+        padding-bottom: .3rem;
+        padding-left: .5rem;
+        padding-right: .5rem;
+      }
+    }
+    .categoryWrapper{
+      margin-bottom: .3rem;
+    }
+
+    &.fix {
+      width: 100%;
+      position: fixed;
+      left: 0;
+      top: 0;
+      padding: 0rem .3rem;
+      box-sizing: border-box;
+    }
+  }
+
+  .selectionWrapper {
+  }
+}

@@ -1,0 +1,23 @@
+@import '../../assets/styles/global.scss';
+
+.root {
+  width: 100%;
+  height: 100%;
+  .contentWrapper {
+    width: 100%;
+    background: $light-gray-extra-xxx;
+    padding-bottom: 2rem; // 给content被bottom挡住的部分留空间
+  }
+  .bottomWrapper {
+    position: fixed;
+    bottom: 0rem;
+    left: 0rem;
+    width: 100%;
+    height: 1.5rem;
+    display: flex;
+    background: $light-gray-extra-xxx;
+    opacity: 0.8;
+    border-top: 1px solid $light-gray;
+    box-sizing: border-box;
+  }
+}

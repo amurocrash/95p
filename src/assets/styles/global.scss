@@ -1,0 +1,56 @@
+$main-black: #333;
+$black: #000;
+
+$white: #fff;
+
+$dark-gray-xxx: #666;
+$dark-gray-xx: #777;
+$dark-gray-x: #888;
+$dark-gray: #999;
+$main-gray: #aaa;
+$light-gray: #bbb;
+$light-gray-x: #ccc;
+$light-gray-xx: #ddd;
+$light-gray-xxx: #eee;
+$light-gray-extra: #efefef;
+$light-gray-extra-x: #f8f8f8;
+$light-gray-extra-xx: #f9f9f9;
+$light-gray-extra-xxx: #fafafa;
+
+$selected-blue: #1890ff;
+$selected-blue-light: #90c6f8;
+$main-blue: #000080;
+
+$success-green: #1bb09c;
+$normal-red: #ff0000;
+$error-red: #F74455;
+$warning: #ffb400;
+
+// .button {
+//   background: $selected-blue;
+//   padding: 8px 16px;
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+//   border-radius: 4px;
+//   color: $white;
+//   user-select: none;
+//   &:active {
+//     background: $selected-blue-light;
+//   }
+//   &.disabled {
+//     background: $light-gray-xx;
+//   }
+// }
+
+.vertical-spliter {
+  width: 1px;
+  height: 50px;
+  background: $main-gray;
+}
+
+.horizontal-spliter {
+  width: 100%;
+  height: 1px;
+  background: $light-gray-xxx;
+}
